@@ -4,7 +4,7 @@
 
 ### mobile
 
-![Mobile]()
+![Mobile](https://github.com/MuriithiMark/travlog-responsive-page/blob/main/mobile.png)
 
 ### desktop 
 ![Desktop]()
