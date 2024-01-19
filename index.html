@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Travlog Responsive Page</title>
 </head>
+
 <body>
     <nav>
-        <div class="menu"></div>
-        <div class="logo"></div>
-        <div class="links">
+        <div class="menu">
+            <i class="bi bi-list for-small-medium"></i>
+            <div class="links for-small-medium">
+                <span><a href="./home">Home</a></span>
+                <span><a href="./discover">Discover</a></span>
+                <span><a href="./special-deals">Special Deals</a></span>
+                <span><a href="./contact">Contact</a></span>
+            </div>
+        </div>
 
+        <div class="logo">
+            <a href="./">
+                <img src="./assets/logo.svg" alt="logo">
+                <!-- <span class="site-title">Travlog</span> -->
+            </a>
+        </div>
+
+        <div class="desktop links">
+            <span><a href="./home">Home</a></span>
+            <span><a href="./discover">Discover</a></span>
+            <span><a href="./special-deals">Special Deals</a></span>
+            <span><a href="./contact">Contact</a></span>
         </div>
         <div class="accounts">
             <button class="btn login">Login</button>
@@ -19,8 +40,56 @@
         </div>
     </nav>
     <main>
-        <div class="about"></div>
-        <div class="home-image"></div>
+        <div class="main-page">
+            <div class="about">
+                <div class="title">
+                    <h1>Travel <span class="pink-text">top destination</span> of the world</h1>
+                </div>
+                <div class="info">
+                    <p>We always make our customers happy by providing as many choices as possible</p>
+                </div>
+                <div class="actions">
+                    <div class="btn get-started">
+                        <button>Get Started</button>
+                    </div>
+                    <div class="btn watch-demo">
+                        <button>
+                            <i class="bi bi-play"></i>
+                            <span>Watch Demo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="images">
+                    <div class="left-grid">
+                        <img src="./assets/john-jason-aF99M98c_uk-unsplash.jpg" alt="john-jason-aF99M98c_uk-unsplash">
+                        <img src="./assets/jordan-mcqueen-u9tAl8WR3DI-unsplash.jpg"
+                            alt="jordan-mcqueen-u9tAl8WR3DI-unsplash">
+                    </div>
+                    <div class="right-grid">
+                        <img src="./assets/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg"
+                            alt="fabio-comparelli-uq2E2V4LhCY-unsplash">
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="explore-the-world">
+                        Explore the world
+                        <i class="bi bi-briefcase-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="socials">
+            <!-- Logos for companies here -->
+            <img src="./assets/trip-advisor.svg" alt="trip-advisor">
+            <img src="./assets/expedia.svg" alt="expedia">
+            <img src="./assets/booking.com.svg" alt="booking">
+            <img src="./assets/airbnb.svg" alt="airbnb">
+            <img src="./assets/rbitz.svg" alt="rbitz">
+        </div>
     </main>
 </body>
+
 </html>

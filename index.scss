@@ -1,4 +1,11 @@
-@use './scss/reset.scss';
-@use './scss/small-default.scss';
-@use './scss/medium.scss';
-@use './scss/large.scss';
+@import './scss/reset.scss';
+@import './scss/variables';
+@import './scss/small-default.scss';
+
+@media screen and (min-width: 768px) {
+    @import './scss/medium.scss';
+}
+
+@media screen and (min-width: 1200px) {
+    @import './scss/large.scss';
+}
