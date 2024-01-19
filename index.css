@@ -261,13 +261,83 @@ h1 {
     border-radius: 20px;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 1140px) {
-  .mobile {
-    display: none;
-  }
-  .desktop {
+@media screen and (min-width: 1200px) {
+  nav {
+    width: 100%;
+    height: 6%;
+    padding-top: 2%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+  }
+  nav .menu, nav .for-small-medium {
+    display: none;
+  }
+  nav .logo {
+    width: 20%;
+    height: 100%;
+  }
+  nav .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  nav .links {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav .links a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+  }
+  nav .links a:hover {
+    opacity: 0.7;
+  }
+  nav .accounts {
+    width: 20%;
+    height: 100%;
+  }
+  nav .accounts .btn {
+    height: 70%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+  }
+  main .main-page {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding: 5%;
+  }
+  main .main-page .about, main .main-page .home-image {
+    width: 40%;
+  }
+  main .main-page .about {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  main .main-page .about .actions {
+    margin-top: 10%;
+  }
+  main .socials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5%;
+  }
+  main .socials img {
+    width: 10%;
   }
 }
 

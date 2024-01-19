@@ -1,10 +1,94 @@
-@media screen and (min-width: 1140px) {
-    .mobile {
+nav {
+
+    .menu, .for-small-medium {
         display: none;
     }
 
-    .desktop {
+    width: 100%;
+    height: 6%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+
+    .logo {
+        width: 20%;
+        height: 100%;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .links {
+        width: 30%;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            font-size: larger;
+            color: black;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .accounts {
+        width: 20%;
+        height: 100%;
+        
+        .btn {
+            height: 70%;
+        }
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+
+    .main-page {
+        display: flex;
+        flex-direction: row;
+
+        gap: 10%;
+        padding: 5%;
+
+        .about, .home-image {
+            width: 40%;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            height: 80%;
+            justify-content: space-between;
+            padding-top: 10%;
+            padding-bottom: 10%;
+
+            .actions {
+                margin-top: 10%;
+            }
+        }
+    }
+
+    .socials {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 5%;
+
+        img {
+            width: 10%;
+        }
     }
 }
