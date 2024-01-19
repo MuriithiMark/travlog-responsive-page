@@ -1,21 +1,61 @@
+nav {
 
-.accounts {
-    width: 50%;
+    .desktop {
+        display: none;
+    }
+
+    .accounts {
+        display: flex;
+    }
+
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
     gap: 5%;
 
-    .btn {
-        width: 40%;
-        height: 60%;
-        font-weight: 600;
+    .menu,
+    .logo,
+    .accounts {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5%;
     }
 
-    .btn.sign-up {
-        background-color: purple;
-        color: white;
-        border-radius: 20px;
+    .logo {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        a img {
+            height: 60%;
+        }
     }
+
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .accounts {
+        display: flex;
+        justify-content: flex-end;
+        .btn {
+            font-weight: 600;
+        }
+
+        .btn.sign-up {
+            width: 50%;
+            height: 40%;
+            background-color: purple;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+}
+
+main .main-page .home-image .actions {
+    border-radius: 40%;
 }
